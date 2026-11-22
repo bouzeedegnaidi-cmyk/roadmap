@@ -1,0 +1,31 @@
+# Private runtime state — never commit (board data, DB, logs, tokens)
+local.env
+roadmap.json
+pm.db
+pm.db-shm
+pm.db-wal
+pm_server*.log
+*.tmp
+payload.json
+patch_*.py
+check_tags.py
+check_tagstyle.py
+rec_patch.py
+tag_filter_fix.py
+_scratch/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Managed workstreams (private per-user config)
+streams/*/
+stream.meta.json
